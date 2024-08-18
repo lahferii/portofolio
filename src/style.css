@@ -22,6 +22,12 @@
   .nav-scrolled{
     @apply bg-slate-100 shadow-lg dark:bg-slate-700 dark:bg-opacity-50 dark:backdrop-blur-sm
   }
+  .burger{
+    @apply w-7 h-7 flex flex-col gap-2
+  }
+  .menu{
+    @apply bg-slate-100 bg-opacity-50 dark:bg-slate-700 dark:backdrop-blur-sm gap-5 sm:items-center absolute top-24 right-5 flex-col w-40 p-5 rounded shadow-lg
+  }
   .nav-link{
     @apply tracking-widest font-semibold text-gray-500 dark:text-emerald-700
   }
