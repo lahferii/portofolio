@@ -1,19 +1,21 @@
 <script></script>
 
 <template>
-  <section class="max-w-5xl m-auto h-screen flex flex-col sm:flex-row items-center px-5 pt-20 sm:pt-0">
-    <div class="sm:flex-1">
-      <img class="w-4/6 sm:w-3/4 m-auto object-fit object-center" src="../assets/hero.png" alt="hero.png">
-    </div>
-    <div class="sm:flex-1">
-      <div>
-        <h1 class="text-xl sm:text-2xl tracking-widest font-semibold mb-2">Hello World!</h1>
-        <p class=" tracking-wider leading-relaxed mb-5">
-          I`m <span class="text-primary dark:text-primary-dark font-semibold tracking-widest">Peri Nurjaman</span>, A student that extremely interested in Website Development, obsessed with carrying out various experiments to create a system that is close to perfection.
-        </p>
-        <div class="flex gap-3">
-          <router-link class="link-btn" to="/about">About</router-link>
-          <router-link class="link-btn" to="/project">Projects</router-link>
+  <section class="max-w-5xl h-min-screen px-5 pt-20 sm:pt-0 m-auto">
+    <div class="flex flex-col sm:flex-row items-center">
+      <div class="sm:flex-1">
+        <img class="w-4/6 sm:w-3/4 m-auto object-fit object-center" src="../assets/hero.png" alt="hero.png">
+      </div>
+      <div class="sm:flex-1">
+        <div>
+          <h1 class="text-xl sm:text-2xl tracking-widest font-semibold mb-2">Hello World!</h1>
+          <p class=" tracking-wider leading-relaxed mb-5">
+            I`m <span class="text-primary dark:text-primary-dark font-semibold tracking-widest">Peri Nurjaman</span>, A student that extremely interested in Website Development, obsessed with carrying out various experiments to create a system that is close to perfection.
+          </p>
+          <div class="flex gap-3">
+            <router-link class="link-btn" to="/about">About</router-link>
+            <router-link class="link-btn" to="/project">Projects</router-link>
+          </div>
         </div>
       </div>
     </div>
