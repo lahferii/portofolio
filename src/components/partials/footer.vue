@@ -1,5 +1,5 @@
 <template>
-  <div class="px-5 lg:px-20 py-10 flex lg:items-end justify-between flex-col lg:flex-row gap-5 lg:gap-0 border-t-2">
+  <div class="px-5 lg:px-20 py-10 flex lg:items-end justify-between flex-col lg:flex-row gap-16 lg:gap-0 border-t-2">
     <div>
       <p class="text-2xl lg:text-lg font-semibold tracking-wider mb-2">Connect With Me!</p>
       <ul class="flex flex-col lg:flex-row gap-5">
@@ -19,7 +19,7 @@
     </div>
 
     <article>
-      <p class="tracking-widest lg:text-sm">Crafted with ❤ by
+      <p class="tracking-widest lg:text-sm text-center lg:text-left">Crafted with ❤ by
         <span class="font-semibold">Peri Nurjaman</span>
       </p>
     </article>
