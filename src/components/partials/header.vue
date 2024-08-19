@@ -53,9 +53,9 @@ export default{
     
     <!-- burger -->
     <button class="burger group">
-      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:bg-primary-dark"></div>
-      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:bg-primary-dark"></div>
-      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:bg-primary-dark"></div>
+      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:bg-primary dark:group-hover:bg-primary-dark"></div>
+      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:bg-primary dark:group-hover:bg-primary-dark"></div>
+      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:bg-primary dark:group-hover:bg-primary-dark"></div>
     </button>
 
     <nav class="hidden sm:flex menu">
