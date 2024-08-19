@@ -23,10 +23,10 @@
     @apply bg-slate-100 shadow-lg dark:bg-slate-700 dark:bg-opacity-50 dark:backdrop-blur-sm
   }
   .burger{
-    @apply w-7 h-7 flex flex-col gap-2
+    @apply w-7 h-7 flex flex-col gap-2 sm:hidden
   }
   .menu{
-    @apply bg-slate-100 bg-opacity-50 dark:bg-slate-700 dark:backdrop-blur-sm gap-5 sm:items-center absolute top-24 right-5 flex-col w-40 p-5 rounded shadow-lg
+    @apply bg-slate-100 sm:bg-transparent dark:bg-slate-700 sm:dark:bg-transparent dark:backdrop-blur-sm gap-5 sm:items-center absolute sm:static top-24 sm:top-0 right-5 sm:right-0 flex-col sm:flex-row w-40 sm:w-auto p-5 sm:p-0 rounded sm:rounded-none shadow-lg sm:shadow-none
   }
   .nav-link{
     @apply tracking-widest font-semibold text-gray-500 dark:text-emerald-700

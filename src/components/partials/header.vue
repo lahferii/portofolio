@@ -1,10 +1,13 @@
 <script>
 export default{
   mounted(){
-    document.querySelector(".burger").onclick = function(){
-      document.querySelector(".menu").classList.toggle("hidden")
-      document.querySelector(".menu").classList.toggle("sm:flex")
-      document.querySelector(".menu").classList.toggle("flex")
+    const burger = document.querySelector(".burger")
+    const menu = document.querySelector(".menu")
+
+    burger.onclick = () => {
+      menu.classList.toggle("hidden")
+      menu.classList.toggle("sm:flex")
+      menu.classList.toggle("flex")
     }
     
     let checkDarkMode = localStorage.getItem("isDark")
@@ -50,9 +53,9 @@ export default{
     
     <!-- burger -->
     <button class="burger group">
-      <div class="w-full h-2 bg-gray-700 dark:bg-gray-100"></div>
-      <div class="w-full h-2 bg-gray-700 dark:bg-gray-100"></div>
-      <div class="w-full h-2 bg-gray-700 dark:bg-gray-100"></div>
+      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:translate-x-1 group-active:bg-primary-dark"></div>
+      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:-translate-x-1 group-active:bg-primary-dark"></div>
+      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:translate-x-1 group-active:bg-primary-dark"></div>
     </button>
 
     <nav class="hidden sm:flex menu">
