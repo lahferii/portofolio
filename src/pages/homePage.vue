@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-  <section class="max-w-5xl md:h-screen m-auto px-5 pt-24 pb-10">
+  <section class="max-w-5xl lg:h-screen m-auto px-5 pt-24 pb-10">
     <div class="flex flex-col md:flex-row items-center">
       <div class="sm:flex-1">
         <img class="w-4/6 sm:w-3/4 m-auto object-fit object-center" src="../assets/hero.png" alt="hero.png">
