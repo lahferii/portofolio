@@ -16,6 +16,9 @@
 }
 
 @layer components{
+  .wrapper{
+    @apply w-full px-5 md:px-16 pt-24 pb-10 m-auto
+  }
   .nav-bar{
     @apply w-full h-20 px-5 md:px-16 flex items-center justify-between fixed top-0
   }
@@ -33,5 +36,14 @@
   }
   .link-btn{
     @apply px-2 py-1 bg-gradient-to-br from-primary dark:from-primary-dark dark:to-emerald-800 to-blue-700 text-white tracking-widest font-semibold
+  }
+  .card{
+    @apply md:w-80 bg-slate-100 h-52 border border-black flex-shrink-0 rounded p-5 flex flex-col hover:shadow-xl
+  }
+  .card-header{
+    @apply flex-[2]
+  }
+  .card-body{
+    @apply flex-1
   }
 }
