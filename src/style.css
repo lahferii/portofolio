@@ -20,7 +20,7 @@
     @apply w-full h-20 px-5 md:px-16 flex items-center justify-between fixed top-0
   }
   .nav-scrolled{
-    @apply bg-slate-100 shadow-lg dark:bg-slate-700 dark:bg-opacity-50 dark:backdrop-blur-sm
+    @apply bg-slate-100 shadow-lg dark:bg-slate-800 dark:bg-opacity-75 dark:backdrop-blur-sm
   }
   .burger{
     @apply w-7 h-7 flex flex-col gap-2 sm:hidden
