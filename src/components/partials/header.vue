@@ -9,7 +9,7 @@ export default{
       menu.classList.toggle("sm:flex")
       menu.classList.toggle("flex")
     }
-    
+
     let checkDarkMode = localStorage.getItem("isDark")
     if(checkDarkMode){
       document.body.classList.toggle("dark")
@@ -53,9 +53,9 @@ export default{
     
     <!-- burger -->
     <button class="burger group">
-      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:translate-x-1 group-active:bg-primary-dark"></div>
-      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:-translate-x-1 group-active:bg-primary-dark"></div>
-      <div class="w-full h-2 bg-gray-700 dark:bg-white group-hover:translate-x-1 group-active:bg-primary-dark"></div>
+      <div class="w-full h-2 bg-gray-700 dark:bg-white group-active:translate-x-1 sm:group-hover:translate-x-1"></div>
+      <div class="w-full h-2 bg-gray-700 dark:bg-white group-active:-translate-x-1 sm:group-hover:-translate-x-1"></div>
+      <div class="w-full h-2 bg-gray-700 dark:bg-white group-active:translate-x-1 sm:group-hover:translate-x-1"></div>
     </button>
 
     <nav class="hidden sm:flex menu">
