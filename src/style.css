@@ -20,7 +20,7 @@
     @apply w-full px-5 md:px-16 pt-28 pb-10 m-auto
   }
   .nav-bar{
-    @apply w-full h-20 px-5 md:px-16 flex items-center justify-between fixed top-0
+    @apply w-full h-20 px-5 md:px-16 flex items-center justify-between fixed top-0 z-[9999]
   }
   .nav-scrolled{
     @apply bg-slate-100 shadow-lg dark:bg-slate-800 dark:bg-opacity-75 dark:backdrop-blur-sm
@@ -45,5 +45,8 @@
   }
   .card-body{
     @apply flex-1
+  }
+  .record-box{
+    @apply p-5 border border-primary dark:border-primary-dark rounded bg-slate-100 dark:bg-slate-800 mb-4 hover:shadow-xl hover:-translate-y-1 cursor-pointer
   }
 }
