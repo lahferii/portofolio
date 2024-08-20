@@ -1,17 +1,21 @@
 <template>
   <section class="wrapper">
     <div>
-      <div class="md:w-2/3">
-        <h1 class="text-2xl font-semibold tracking-wider mb-4">Latest Projects</h1>
-        <p class="tracking-widest leading-relaxed mb-2">
+      <div class="flex flex-col lg:flex-row lg:justify-between">
+        <div class="flex-1">
+          <h1 class="text-4xl font-semibold tracking-wider mb-4">Latest Projects</h1>
+        </div>
+        <div class="flex-[2]">
+          <p class="tracking-widest leading-relaxed mb-2">
             Honestly, I rarely create a whole complete project. Instead, I tend to concentrate on developing small, separate features indepedently.
-        </p>
-        <p class="tracking-widest leading-relaxed">
-          However, here are a few projects that I have fully completed so far.
-        </p>
+          </p>
+          <p class="tracking-widest leading-relaxed">
+            However, here are a few projects that I have fully completed so far.
+          </p>
+        </div>
       </div>
     
-      <div class="flex py-5 w-full h-72 md:h-auto gap-5 flex-col md:flex-row overflow-y-scroll md:overflow-y-hidden">
+      <div class="flex mt-10 py-5 w-full h-auto sm:h-72 sm:h-auto gap-5 flex-col sm:flex-row sm:overflow-y-hidden">
         <div class="card">
           <div class="card-header"></div>
           <div class="card-body">
