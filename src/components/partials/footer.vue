@@ -4,16 +4,22 @@
       <p class="text-2xl font-semibold tracking-wider mb-4">Connect With Me!</p>
       <ul class="flex flex-col lg:flex-row gap-5">
         <li class="flex items-center gap-2 tracking-widest">
-          <i class="text-2xl lg:text-xl fab fa-instagram"></i>
-          pey.nr
+          <a href="https://instagram.com/pey.nr" target="_blank">
+            <i class="text-2xl lg:text-xl fab fa-instagram"></i>
+            pey.nr
+          </a>
         </li>
         <li class="flex items-center gap-2 tracking-widest">
-          <i class="text-2xl lg:text-xl fab fa-linkedin"></i>
-          Peri Nurjaman
+          <a href="https://linkedin.com/in/peri-nurjaman-9a6469305" target="_blank">
+            <i class="text-2xl lg:text-xl fab fa-linkedin"></i>
+            Peri Nurjaman
+          </a>
         </li>
         <li class="flex items-center gap-2 tracking-widest">
-          <i class="text-2xl lg:text-xl fab fa-whatsapp"></i>
-          0813-2068-8950
+          <a href="https://wa.me/+6281320688950" target="_blank">
+            <i class="text-2xl lg:text-xl fab fa-whatsapp"></i>
+            0813-2068-8950
+          </a>
         </li>
       </ul>
     </div>
