@@ -12,7 +12,7 @@
     </div>
     <div>
       <div class="w-full h-80 overflow-hidden rounded relative group">
-        <img src="../assets/about-hero.jpg" alt="about-hero.jpg" class="w-full h-full object-cover object-center">
+        <img src="../assets/about.png" alt="about.jpg" class="w-full h-full object-cover object-center">
         
         <article class="absolute z-10 w-full h-full top-0 group-hover:bg-gradient-to-b group-hover:from-transparent group-hover:to-black cursor-pointer">
           <h3 class="hidden group-hover:block text-xl md:text-3xl font-semibold tracking-widest bottom-5 left-5 absolute">
