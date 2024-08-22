@@ -74,5 +74,12 @@
         <span class="text-sm tracking-widest">Universitas Lambung Mangkurat, Banjarbaru</span>
       </div>
     </section>
+
+    <article>
+      <p class="tracking-wider mb-5 leading-relaxed">
+        the fact that I'm not a great programmer always makes me excited to dive deeper into this industry!
+      </p>
+    </article>
+
   </div>
 </template>

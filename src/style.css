@@ -29,7 +29,7 @@
     @apply w-7 h-7 flex flex-col gap-2 sm:hidden
   }
   .menu{
-    @apply bg-slate-100 sm:bg-transparent dark:bg-slate-700 sm:dark:bg-transparent dark:backdrop-blur-sm gap-5 sm:items-center absolute sm:static top-24 sm:top-0 right-5 sm:right-0 flex-col sm:flex-row w-40 sm:w-auto p-5 sm:p-0 rounded sm:rounded-none shadow-lg sm:shadow-none
+    @apply bg-slate-100 sm:bg-transparent dark:bg-slate-800 dark:bg-opacity-75 dark:sm:bg-opacity-0 dark:backdrop-blur-sm dark:sm:backdrop-blur-none gap-5 sm:items-center absolute sm:static top-24 sm:top-0 right-5 sm:right-0 flex-col sm:flex-row w-40 sm:w-auto p-5 sm:p-0 rounded sm:rounded-none shadow-lg sm:shadow-none
   }
   .nav-link{
     @apply tracking-widest font-semibold text-gray-500 dark:text-emerald-700
@@ -38,13 +38,16 @@
     @apply px-2 py-1 bg-gradient-to-br from-primary dark:from-primary-dark dark:to-emerald-800 to-blue-700 text-white tracking-widest font-semibold
   }
   .card{
-    @apply sm:w-80 bg-slate-100 h-52  flex-shrink-0 rounded p-5 flex flex-col border border-primary dark:border-primary-dark dark:bg-slate-800
+    @apply bg-white h-56 overflow-hidden rounded flex flex-col dark:bg-slate-700 shadow-xl
   }
   .card-header{
-    @apply flex-[2]
+    @apply flex-[2] overflow-hidden
+  }
+  .card-header img{
+    @apply w-full h-full object-top object-cover saturate-0 scale-150 group-hover:saturate-100 group-hover:scale-100
   }
   .card-body{
-    @apply flex-1
+    @apply flex-1 px-5 py-2
   }
   .record-box{
     @apply p-5 border border-primary dark:border-primary-dark rounded bg-slate-100 dark:bg-slate-800 mb-4 hover:shadow-xl hover:-translate-y-1 cursor-pointer

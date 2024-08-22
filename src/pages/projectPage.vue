@@ -15,65 +15,89 @@
         </div>
       </div>
     
-      <div class="flex mt-10 py-5 w-full h-auto sm:h-72 sm:h-auto gap-5 flex-col sm:flex-row sm:overflow-y-hidden">
-        <div class="card">
-          <div class="card-header"></div>
+      <div class="mt-10 w-full gap-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="card group">
+          <div class="card-header">
+            <img src="../assets/toko.png" alt="toko.png">
+          </div>
           <div class="card-body">
             <h3 class="text-xl font-semibold tracking-wider mb-2">Tokoku</h3>
-            <p class="text-sm tracking-wider underline">
+            <a href="https://github.com/lahferii/tokoku" target="_blank" class="text-sm tracking-wider underline hover:text-primary dark:hover:text-primary-dark">
               See Project 
               <i class="fas fa-arrow-right"></i>
-            </p>
+            </a>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header"></div>
+        <div class="card group">
+          <div class="card-header">
+            <img src="../assets/mov.png" alt="mov.png">
+          </div>
           <div class="card-body">
             <h3 class="text-xl font-semibold tracking-wider mb-2">Movinfo</h3>
-            <p class="text-sm tracking-wider underline">
+            <a href="https://github.com/lahferii/movinfo" target="_blank" class="text-sm tracking-wider underline hover:text-primary dark:hover:text-primary-dark">
               See Project 
               <i class="fas fa-arrow-right"></i>
-            </p>
+            </a>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header"></div>
+        <div class="card group">
+          <div class="card-header">
+            <img src="../assets/tkj.png" alt="tkj.png">
+          </div>
           <div class="card-body">
             <h3 class="text-xl font-semibold tracking-wider mb-2">TKJ Absurd</h3>
-            <p class="text-sm tracking-wider underline">
+            <a href="https://tkjabsurd.netlify.app/" target="_blank" class="text-sm tracking-wider underline hover:text-primary dark:hover:text-primary-dark">
               See Project 
               <i class="fas fa-arrow-right"></i>
-            </p>
+            </a>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header"></div>
+        <div class="card group">
+          <div class="card-header">
+            <img src="../assets/shayna.png" alt="shayna.png">
+          </div>
           <div class="card-body">
             <h3 class="text-xl font-semibold tracking-wider mb-2">Shayna Store</h3>
-            <p class="text-sm tracking-wider underline">
+            <a href="https://github.com/lahferii/shayna-full-project" target="_blank" class="text-sm tracking-wider underline hover:text-primary dark:hover:text-primary-dark">
               See Project 
               <i class="fas fa-arrow-right"></i>
-            </p>
+            </a>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header"></div>
+        <div class="card group">
+          <div class="card-header">
+            <img src="../assets/oray.png" alt="oray.png">
+          </div>
+          <div class="card-body">
+            <h3 class="text-xl font-semibold tracking-wider mb-2">Oray Board Game</h3>
+            <a href="https://oray.netlify.app" class="text-sm tracking-wider underline hover:text-primary dark:hover:text-primary-dark">
+              See Project 
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card group">
+          <div class="card-header">
+            <img src="../assets/selekda.png" alt="selekda.png">
+          </div>
           <div class="card-body">
             <h3 class="text-xl font-semibold tracking-wider mb-2">Selekda Esport Indonesia</h3>
-            <p class="text-sm tracking-wider underline">
+            <a href="https://github.com/lahferii/selekda" target="_blank" class="text-sm tracking-wider underline hover:text-primary dark:hover:text-primary-dark">
               See Project 
               <i class="fas fa-arrow-right"></i>
-            </p>
+            </a>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header"></div>
+        <div class="card group">
+          <div class="card-header">
+            <img src="../assets/lootbox.png" alt="lootbox.png">
+          </div>
           <div class="card-body">
             <h3 class="text-xl font-semibold tracking-wider mb-2">TKJ Lootbox</h3>
-            <p class="text-sm tracking-wider underline">
+            <a href="https://github.com/lahferii/TKJ-LOOTBOX" target="_blank" class="text-sm tracking-wider underline hover:text-primary dark:hover:text-primary-dark">
               See Project 
               <i class="fa fa-arrow-right"></i>
-            </p>
+            </a>
           </div>
         </div>
       </div>
