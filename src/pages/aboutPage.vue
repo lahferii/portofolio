@@ -25,7 +25,7 @@
 
     <article>
       <p class="tracking-wider mb-5 leading-relaxed">
-        Hello, my name is Peri Nurjaman, a student with strong passion in the field of <span class="font-semibold">Web Development and Programming stuff</span>. I started my journey by learning <span class="font-semibold">PHP Programming Language</span> through videos on YouTube in 2022, before finally deciding to switch to <span class="font-semibold">JavaScript completely</span>.
+        Hello, my name is Peri Nurjaman, a student with strong passion in the field of <span class="font-semibold">Web Development and Programming stuff</span>. I started my journey by learning <span class="font-semibold">HTML</span> and <span class="font-semibold">CSS</span> through videos on YouTube in 2021, keep committed until I succeed mastering <span class="font-semibold">Laravel, Vue, Tailwind,</span> and <span class="font-semibold">MySQL</span> in the end of 2022.
       </p>
       <p class="tracking-wider mb-5 leading-relaxed">
         After being rejected as an informatics student, my dream of becoming a website developer didn't just collapse. I decided not to give up and started learning <span class="font-semibold">NodeJS</span> through a <span class="font-semibold">Programmer Zaman Now</span> Courses recently. Even though I haven't finished it yet because of time constraints, I really enjoy everything I've gone through so far!
@@ -45,31 +45,31 @@
     <section class="mb-5">
       <div class="record-box">
         <p class="text-xl tracking-wider font-semibold mb-2">
-          <span class="text-primary dark:text-primary-dark font-bold">15th</span> Place In Lomba Keterampilan Siswa Nasional
+          <span class="text-primary dark:text-primary-dark font-bold">15th</span> Place In Lomba Keterampilan Siswa Nasional 2022
         </p>
         <span class="text-sm tracking-widest">Pusat Prestasi Nasional</span>
       </div>
       <div class="record-box">
         <p class="text-xl tracking-wider font-semibold mb-2">
-          <span class="text-primary dark:text-primary-dark font-bold">2nd</span> Place In Seleksi Daerah For Asean Skill Competition (Regional Scale)
+          <span class="text-primary dark:text-primary-dark font-bold">11th</span> Place In Seleksi Daerah For Asean Skill Competition 2022 (National Scale)
         </p>
         <span class="text-sm tracking-widest">Kementerian Ketenagakerjaan Republik Indonesia</span>
       </div>
       <div class="record-box">
         <p class="text-xl tracking-wider font-semibold mb-2">
-          <span class="text-primary dark:text-primary-dark font-bold">11th</span> Place In Seleksi Daerah For Asean Skill Competition (National Scale)
+          <span class="text-primary dark:text-primary-dark font-bold">2nd</span> Place In Seleksi Daerah For Asean Skill Competition 2022 (Regional Scale)
         </p>
         <span class="text-sm tracking-widest">Kementerian Ketenagakerjaan Republik Indonesia</span>
       </div>
       <div class="record-box">
         <p class="text-xl tracking-wider font-semibold mb-2 mb-2">
-          <span class="text-primary dark:text-primary-dark font-bold">1st</span> Place In Online Web Design Competition (OWDC)
+          <span class="text-primary dark:text-primary-dark font-bold">1st</span> Place In Online Web Design Competition 2022 (OWDC)
         </p>
         <span class="text-sm tracking-widest">Universitas Teknologi Digital, Yogyakarta</span>
       </div>
       <div class="record-box">
         <p class="text-xl tracking-wider font-semibold mb-2 mb-2">
-          <span class="text-primary dark:text-primary-dark font-bold">1st</span> Place In BYTECOMP - Web Design
+          <span class="text-primary dark:text-primary-dark font-bold">1st</span> Place In BYTECOMP 2021 - Web Design
         </p>
         <span class="text-sm tracking-widest">Universitas Lambung Mangkurat, Banjarbaru</span>
       </div>
@@ -77,7 +77,7 @@
 
     <article>
       <p class="tracking-wider mb-5 leading-relaxed">
-        the fact that I'm not a great programmer always makes me excited to dive deeper into this industry!
+        The fact that I'm not a great programmer always makes me excited to dive deeper into this industry!
       </p>
     </article>
 
