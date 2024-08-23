@@ -11,7 +11,7 @@
     @apply duration-0
   }
   *{
-    @apply text-gray-700 dark:text-gray-100 selection:bg-none duration-300
+    @apply text-gray-700 dark:text-gray-100 selection:bg-primary dark:selection:bg-primary-dark selection:text-white duration-300
   }
 }
 
@@ -29,7 +29,7 @@
     @apply w-7 h-7 flex flex-col gap-2 sm:hidden
   }
   .menu{
-    @apply bg-slate-100 sm:bg-transparent dark:bg-slate-800 dark:bg-opacity-75 dark:sm:bg-opacity-0 dark:backdrop-blur-sm dark:sm:backdrop-blur-none gap-5 sm:items-center absolute sm:static top-24 sm:top-0 right-5 sm:right-0 flex-col sm:flex-row w-40 sm:w-auto p-5 sm:p-0 rounded sm:rounded-none shadow-lg sm:shadow-none
+    @apply bg-slate-100 sm:bg-transparent dark:bg-slate-800 dark:sm:bg-opacity-0 dark:backdrop-blur-sm dark:sm:backdrop-blur-none gap-5 sm:items-center absolute sm:static top-24 sm:top-0 right-5 sm:right-0 flex-col sm:flex-row w-40 sm:w-auto p-5 sm:p-0 rounded sm:rounded-none shadow-xl sm:shadow-none
   }
   .nav-link{
     @apply tracking-widest font-semibold text-gray-500 dark:text-emerald-700
@@ -38,7 +38,7 @@
     @apply px-2 py-1 bg-gradient-to-br from-primary dark:from-primary-dark dark:to-emerald-800 to-blue-700 text-white tracking-widest font-semibold
   }
   .card{
-    @apply bg-white h-56 overflow-hidden rounded flex flex-col dark:bg-slate-700 shadow-xl
+    @apply bg-white h-64 overflow-hidden rounded flex flex-col dark:bg-slate-700 shadow-xl
   }
   .card-header{
     @apply flex-[2] overflow-hidden

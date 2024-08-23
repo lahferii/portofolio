@@ -69,7 +69,7 @@
             <img src="../assets/oray.png" alt="oray.png">
           </div>
           <div class="card-body">
-            <h3 class="text-xl font-semibold tracking-wider mb-2">Oray Board Game</h3>
+            <h3 class="text-xl font-semibold tracking-wider mb-2">Oray Arcade Game</h3>
             <a href="https://oray.netlify.app" class="text-sm tracking-wider underline hover:text-primary dark:hover:text-primary-dark">
               See Project 
               <i class="fas fa-arrow-right"></i>
