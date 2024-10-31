@@ -28,12 +28,6 @@
         Hello, my name is Peri Nurjaman, a student with strong passion in the field of <span class="font-semibold">Web Development and Programming stuff</span>. I started my journey by learning <span class="font-semibold">HTML</span> and <span class="font-semibold">CSS</span> through videos on YouTube in 2021, keep committed until I succeed mastering <span class="font-semibold">Laravel, Vue, Tailwind,</span> and <span class="font-semibold">MySQL</span> in the end of 2022.
       </p>
       <p class="tracking-wider mb-5 leading-relaxed">
-        After being rejected as an informatics student, my dream of becoming a website developer didn't just collapse. I decided not to give up and started learning <span class="font-semibold">NodeJS</span> through a <span class="font-semibold">Programmer Zaman Now</span> Courses recently. Even though I haven't finished it yet because of time constraints, I really enjoy everything I've gone through so far!
-      </p>
-      <p class="tracking-wider mb-5 leading-relaxed">
-        My interest in <span class="font-semibold">EEPIS News And Network Team (ENT)</span> didn`t come with no reason. With all the basic knowledge that I have, I believe that my abilities and skills will improve with ENT. I hope that I can implement the abilities I have and not just create dummy projects like I have done before.
-      </p>
-      <p class="tracking-wider mb-5 leading-relaxed">
         To be honest, I'm not a great programmer. I am a programmer with a ton of <s>failure</s> experiences. However, I would love to share my journey so far!
       </p>
     </article>
